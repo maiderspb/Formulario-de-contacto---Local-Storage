@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulario de Contacto</h2>
+        <form id="contactForm">
+            <div><input type="text" id="name" placeholder="Nombre" required></div>
+            <div><input type="email" id="email" placeholder="Correo" required></div>
+            <div><textarea id="message" placeholder="Mensaje" required></textarea></div>
+            <div><input type="url" id="imageUrl" placeholder="URL Imagen"></div>
+            <button type="submit">Guardar Contacto</button>
+        </form>
+        <h3>Último Contacto Guardado</h3>
+        <div id="lastContact"></div>
+        <h3>Todos los Contactos</h3>
+        <div id="allContacts"></div>
+        <button id="clearContacts">Borrar Todos</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
