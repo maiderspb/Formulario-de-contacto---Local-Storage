@@ -1,12 +1,13 @@
 body {
-  font-family: Arial, Verdana, Helvetica,sans-serif;
-  background:lightblue;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  background: lightblue;
 }
 .container {
   max-width: 400px;
   margin: auto;
 }
-input,textarea {
+input,
+textarea {
   width: 100%;
   margin: 5px 0;
   padding: 8px;
@@ -15,6 +16,9 @@ button {
   padding: 10px;
   margin-top: 10px;
   cursor: pointer;
+  background-color: orange;
+  color: white;
+  border: white;
 }
 .contact-card {
   border: 1px solid #ddd;
